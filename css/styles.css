@@ -82,7 +82,7 @@ a {
 }
 
 .link-arrow::after {
-  content: "-->";
+  content: " →";
   margin-left: 5px;
   transition: margin 0.15s;
 }
@@ -745,4 +745,21 @@ a {
 .block-plans .card {
   max-width: 500px;
   margin: 0 auto;
+}
+
+/* Features */
+.feature {
+  gap: 4rem 2rem;
+}
+
+.feature:first-of-type {
+  margin-top: 6rem;
+}
+
+.feature__heading {
+  margin: 1rem 0;
+}
+
+.feature__image {
+  width: 100%;
 }
