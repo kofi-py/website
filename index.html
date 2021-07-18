@@ -17,6 +17,7 @@
     />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
     <header>
@@ -36,13 +37,13 @@
     <section class="block block--dark block--skewed-left hero">
       <div class="container grid grid--1x2">
         <header class="block__header hero__content">
-          <h1 class="block__heading">Cloud Hosting for Pros</h1>
+          <h1 class="block__heading" data-aos="zoom-in-up">Cloud Hosting for Pros</h1>
           <p class="hero__tagline">
             Deploy your websites in less than 60 seconds.
           </p>
           <a href="https://codewithmosh.com" class="btn btn-accent btn--long">Get Started</a>
         </div>
-        <picture>
+        <picture data-aos="zoom-in">
           <source type="image/webp" srcset="images/banner.webp 1x, images/banner@2x.webp 2x">
           <source type="image/png" srcset="images/banner.png 1x, images/banner@2x.png 2x">
           <img class="hero__image" src="images/banner.png" alt="" />
@@ -146,7 +147,7 @@
         </p>
       </header>
       <article class="grid grid--1x2 feature">
-        <div class="feature__content">
+        <div class="feature__content" data-aos="fade-right">
           <span class="icon-container">
             <svg class="icon icon--primary">
               <use xlink:href="images/sprite3.svg#easy"></use>
@@ -159,7 +160,7 @@
           </p>
           <a href="#" class="link-arrow">Learn More</a>
         </div>
-        <picture>
+        <picture data-aos="zoom-in-left">
           <source
             type="image/webp"
             srcset="images/easy.webp 1x, images/easy@2x.webp 2x"
@@ -172,7 +173,7 @@
         </picture>
       </article>
       <article class="grid grid--1x2 feature">
-        <div class="feature__content">
+        <div class="feature__content" data-aos="fade-up">
           <span class="icon-container">
             <svg class="icon icon--primary">
               <use xlink:href="images/sprite3.svg#computer"></use>
@@ -198,7 +199,7 @@
         </picture>
       </article>
       <article class="grid grid--1x2 feature">
-        <div class="feature__content">
+        <div class="feature__content" data-aos="fade-up">
           <span class="icon-container">
             <svg class="icon icon--primary">
               <use xlink:href="images/sprite.svg#wordpress"></use>
@@ -224,7 +225,7 @@
         </picture>
       </article>
       <article class="grid grid--1x2 feature">
-        <div class="feature__content">
+        <div class="feature__content" data-aos="fade-left">
           <span class="icon-container">
             <svg class="icon icon--primary">
               <use xlink:href="images/sprite3.svg#clock"></use>
@@ -338,7 +339,7 @@
               />
               <span class="icon-container icon-container--accent">
                 <svg class="icon icon--white icon--small">
-                  <use xlink:href="images/sprite.svg#quotes"></use>
+                  <use xlink:href="images/sprite2.svg#quotes"></use>
                 </svg>
               </span>
             </div>
@@ -377,7 +378,7 @@
               cupiditate quas cum fugit.
             </p>
           </div>
-          <a href="#" class="btn btn--secondary btn--stretched">Get Started</a>
+          <a href="#" class="btn btn-secondary btn--stretched">Get Started</a>
         </div>
       </div>
     </div>
@@ -452,9 +453,10 @@
     </footer>
 
     <script src="js/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
 
-    <script src="js/main.js"></script>
-  </body>
-</html>
